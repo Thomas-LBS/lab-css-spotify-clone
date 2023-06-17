@@ -6,3 +6,191 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* Reseting Html*/
+*, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+
+/*generals settings*/
+body {
+    background-color: white;
+    color: 1A1A1A;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*header settings*/
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+    }
+
+header > a > img {
+    height: 80px;
+    padding: 10px 25px;
+    }
+
+nav {
+    display: flex;
+    justify-content: end;
+    padding: 10px 25px;    
+}
+
+nav a {
+    background-color: white;
+    padding: 0 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.2em;
+   
+}
+
+
+
+
+
+
+/*main settings*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    position: relative;
+    top:100px;
+    height: 600px;
+    background-image: url('/images/landing.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+main > h1 {
+    font-size: 4em;
+    padding: 20px;
+}
+
+main > p {
+    font-size: 1.5em;
+}
+
+
+/*section what's on spotify settings*/
+#whats-on-spotify {
+    position : relative;
+    top : 100px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 50px 100px;
+    
+}
+
+#whats-on-spotify div {
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+#whats-on-spotify h2 {
+    display: inline-block;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 25px 0 5px;
+    border-bottom: 3px #00B172 inset;
+    margin-bottom: 25px;
+    }
+
+.whats-article {
+    text-align: center;
+    width: 25%;    
+    }
+
+#whats-on-spotify img {
+    height: 70px; 
+}
+
+.whats-article h3 {
+    color: #00B172;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+
+
+/*last section settings*/
+#last-section {
+    position : relative;
+    top : 100px;
+    background-color: #00B172;
+    margin:0 25px;
+    padding: 30px;
+    color: white;
+    display:flex;
+    
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+}
+
+#last-section h2 {
+    display: inline-block;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 25px 0 5px;
+    border-bottom: 3px white inset;
+    margin-bottom: 25px;
+}
+
+#last-section h3 {
+    font-size: 1.2em;
+    padding: 25px 0;
+}
+
+.white-logo {
+    position: relative;
+    top: 40%;
+    width: 75px;
+    height: 75px;
+    padding: 0 15px;
+}
+
+.visual-appli {
+    position: relative;
+    top: 40%;
+    width: 40%;
+    height: auto;
+    
+
+}
+
+.yeezy-style {
+    padding: 0 25px;
+    
+}
+
+#last-section article {
+    display: flex;
+}
+
+
